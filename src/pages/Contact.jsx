@@ -71,6 +71,7 @@ const Contact = () => {
       );
   };
 
+  //MARK: MAIN CODE
   return (
     <section className='relative flex lg:flex-row flex-col max-container'>
       {alert.show && <Alert {...alert} />}
