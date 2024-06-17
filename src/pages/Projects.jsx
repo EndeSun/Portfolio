@@ -4,21 +4,23 @@ const Projects = () => {
   return (
     <section className="relative flex lg:flex-row flex-col max-container">
       <div className="flex-1 min-w-[50%] flex flex-col">
-        <h2 className="text-6xl title-gradient_text">PROJECTS <span className="subtitle-gradient_text">MADE</span></h2>
+        <h2 className="text-6xl title-gradient_text">
+          PROJECTS <span className="subtitle-gradient_text">MADE</span>
+        </h2>
         <section className="mt-6 flex flex-wrap justify-center gap-2">
           {/* MARK: BUGA
            */}
-          <div class="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+          <div className="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
             <a href="#">
               <img
-                class="rounded-t-lg"
+                className="rounded-t-lg"
                 src="src/assets/images/fotografo.webp"
                 alt="desginer-image"
               />
             </a>
-            <div class="p-5">
+            <div className="p-5">
               <a href="#">
-                <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+                <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
                   BUGA RAMEN S.L.
                 </h5>
               </a>
@@ -34,27 +36,35 @@ const Projects = () => {
                   alt="Static Badge"
                   src="https://img.shields.io/badge/react-%23a4ebfd?style=for-the-badge&logo=react&logoSize=auto"
                 />
+
                 <img
                   alt="Static Badge"
                   src="https://img.shields.io/badge/framer-%23b5dfff?style=for-the-badge&logo=framer&logoSize=auto"
+                  className="hidden lg:block"
                 />
               </div>
+
+              <img
+                alt="Static Badge"
+                src="https://img.shields.io/badge/framer-%23b5dfff?style=for-the-badge&logo=framer&logoSize=auto"
+                className="block lg:hidden"
+              />
             </div>
           </div>
 
           {/* MARK: MENU DESIGN
            */}
-          <div class="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+          <div className="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
             <a href="#">
               <img
-                class="rounded-t-lg"
+                className="rounded-t-lg"
                 src="src/assets/images/fotografo.webp"
                 alt="desginer-image"
               />
             </a>
-            <div class="p-5">
+            <div className="p-5">
               <a href="#">
-                <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+                <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
                   ABC
                 </h5>
               </a>
@@ -76,17 +86,17 @@ const Projects = () => {
 
           {/* MARK: SEÑALES
            */}
-          <div class="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+          <div className="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
             <a href="#">
               <img
-                class="rounded-t-lg"
+                className="rounded-t-lg"
                 src="src/assets/images/fotografo.webp"
                 alt="desginer-image"
               />
             </a>
-            <div class="p-5">
+            <div className="p-5">
               <a href="#">
-                <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+                <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
                   CARDIAC SIGNAL PROCESSING
                 </h5>
               </a>
@@ -104,17 +114,17 @@ const Projects = () => {
 
           {/* MARK: TELEMEDICINA
            */}
-          <div class="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+          <div className="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
             <a href="#">
               <img
-                class="rounded-t-lg"
+                className="rounded-t-lg"
                 src="src/assets/images/fotografo.webp"
                 alt="desginer-image"
               />
             </a>
-            <div class="p-5">
+            <div className="p-5">
               <a href="#">
-                <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+                <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
                   TELEMEDICINE
                 </h5>
               </a>
@@ -132,10 +142,25 @@ const Projects = () => {
                   src="https://img.shields.io/badge/Node-%23fffcea?style=for-the-badge&logo=nodedotjs&logoSize=auto"
                 />
                 <img
+                  className="hidden lg:block"
                   alt="Static Badge"
                   src="https://img.shields.io/badge/html-%23ffcbc1?style=for-the-badge&logoSize=auto"
                 />
                 <img
+                  className="hidden lg:block"
+                  alt="Static Badge"
+                  src="https://img.shields.io/badge/css-%23b6eeff?style=for-the-badge&logoSize=auto"
+                />
+              </div>
+
+              <div className="flex flex-row">
+                <img
+                  className="block lg:hidden"
+                  alt="Static Badge"
+                  src="https://img.shields.io/badge/html-%23ffcbc1?style=for-the-badge&logoSize=auto"
+                />
+                <img
+                  className="block lg:hidden"
                   alt="Static Badge"
                   src="https://img.shields.io/badge/css-%23b6eeff?style=for-the-badge&logoSize=auto"
                 />
@@ -145,17 +170,17 @@ const Projects = () => {
 
           {/* MARK: USABILIDAD
            */}
-          <div class="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+          <div className="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
             <a href="#">
               <img
-                class="rounded-t-lg"
+                className="rounded-t-lg"
                 src="src/assets/images/fotografo.webp"
                 alt="desginer-image"
               />
             </a>
-            <div class="p-5">
+            <div className="p-5">
               <a href="#">
-                <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+                <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
                   STWHEALTH
                 </h5>
               </a>
@@ -176,17 +201,17 @@ const Projects = () => {
           </div>
           {/* MARK: DICOM
            */}
-          <div class="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+          <div className="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
             <a href="#">
               <img
-                class="rounded-t-lg"
+                className="rounded-t-lg"
                 src="src/assets/images/fotografo.webp"
                 alt="desginer-image"
               />
             </a>
-            <div class="p-5">
+            <div className="p-5">
               <a href="#">
-                <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+                <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
                   DICOM miniproject
                 </h5>
               </a>
@@ -203,17 +228,17 @@ const Projects = () => {
           </div>
           {/* MARK: DATA ANALYSYS
            */}
-          <div class="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+          <div className="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
             <a href="#">
               <img
-                class="rounded-t-lg"
+                className="rounded-t-lg"
                 src="src/assets/images/fotografo.webp"
                 alt="desginer-image"
               />
             </a>
-            <div class="p-5">
+            <div className="p-5">
               <a href="#">
-                <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+                <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
                   DATA ANALYSYS
                 </h5>
               </a>
@@ -231,17 +256,17 @@ const Projects = () => {
           </div>
           {/* MARK: IMAGE CLASSIFIER
            */}
-          <div class="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+          <div className="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
             <a href="#">
               <img
-                class="rounded-t-lg"
+                className="rounded-t-lg"
                 src="src/assets/images/fotografo.webp"
                 alt="desginer-image"
               />
             </a>
-            <div class="p-5">
+            <div className="p-5">
               <a href="#">
-                <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+                <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
                   MEDICAL IMAGE CLASSIFIER
                 </h5>
               </a>
@@ -258,17 +283,17 @@ const Projects = () => {
           </div>
           {/* MARK: AIR HOCKEY
            */}
-          <div class="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+          <div className="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
             <a href="#">
               <img
-                class="rounded-t-lg"
+                className="rounded-t-lg"
                 src="src/assets/images/fotografo.webp"
                 alt="desginer-image"
               />
             </a>
-            <div class="p-5">
+            <div className="p-5">
               <a href="#">
-                <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+                <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
                   AIR HOCKEY VIDEOGAME
                 </h5>
               </a>
@@ -289,17 +314,17 @@ const Projects = () => {
           </div>
           {/* MARK: SQUID GAME
            */}
-          <div class="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+          <div className="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
             <a href="#">
               <img
-                class="rounded-t-lg"
+                className="rounded-t-lg"
                 src="src/assets/images/fotografo.webp"
                 alt="desginer-image"
               />
             </a>
-            <div class="p-5">
+            <div className="p-5">
               <a href="#">
-                <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+                <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
                   SQUID VIDEOGAME
                 </h5>
               </a>
@@ -316,17 +341,17 @@ const Projects = () => {
           </div>
           {/* MARK: DEFENSA MÍSTICA
            */}
-          <div class="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+          <div className="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
             <a href="#">
               <img
-                class="rounded-t-lg"
+                className="rounded-t-lg"
                 src="src/assets/images/fotografo.webp"
                 alt="desginer-image"
               />
             </a>
-            <div class="p-5">
+            <div className="p-5">
               <a href="#">
-                <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+                <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
                   DEFENSA MÍSTICA
                 </h5>
               </a>
@@ -343,17 +368,17 @@ const Projects = () => {
           </div>
           {/* MARK: RUN TRACKER
            */}
-          <div class="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+          <div className="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
             <a href="#">
               <img
-                class="rounded-t-lg"
+                className="rounded-t-lg"
                 src="src/assets/images/fotografo.webp"
                 alt="desginer-image"
               />
             </a>
-            <div class="p-5">
+            <div className="p-5">
               <a href="#">
-                <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+                <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
                   RUN TRACKER
                 </h5>
               </a>
@@ -397,17 +422,17 @@ const Projects = () => {
           </div>
           {/* MARK: VIDEOCLUB
            */}
-          <div class="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+          <div className="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
             <a href="#">
               <img
-                class="rounded-t-lg"
+                className="rounded-t-lg"
                 src="src/assets/images/fotografo.webp"
                 alt="desginer-image"
               />
             </a>
-            <div class="p-5">
+            <div className="p-5">
               <a href="#">
-                <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+                <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
                   VIDEOCLUB
                 </h5>
               </a>
@@ -425,25 +450,32 @@ const Projects = () => {
                   src="https://img.shields.io/badge/ionic-%23d4f7f9?style=for-the-badge&logo=ionic&logoSize=auto"
                 />
                 <img
+                  className="hidden lg:block"
                   alt="Static Badge"
                   src="https://img.shields.io/badge/angular-%23d9d9de?style=for-the-badge&logo=angular&logoSize=auto"
                 />
               </div>
+
+              <img
+                className="block lg:hidden"
+                alt="Static Badge"
+                src="https://img.shields.io/badge/angular-%23d9d9de?style=for-the-badge&logo=angular&logoSize=auto"
+              />
             </div>
           </div>
           {/* MARK: FILMOTECA
            */}
-          <div class="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+          <div className="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
             <a href="#">
               <img
-                class="rounded-t-lg"
+                className="rounded-t-lg"
                 src="src/assets/images/fotografo.webp"
                 alt="desginer-image"
               />
             </a>
-            <div class="p-5">
+            <div className="p-5">
               <a href="#">
-                <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+                <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
                   FILMOTECA
                 </h5>
               </a>
@@ -461,17 +493,17 @@ const Projects = () => {
 
           {/* MARK: DIET APP
            */}
-          <div class="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+          <div className="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
             <a href="#">
               <img
-                class="rounded-t-lg"
+                className="rounded-t-lg"
                 src="src/assets/images/fotografo.webp"
                 alt="desginer-image"
               />
             </a>
-            <div class="p-5">
+            <div className="p-5">
               <a href="#">
-                <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+                <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
                   DIET APP
                 </h5>
               </a>
@@ -488,17 +520,17 @@ const Projects = () => {
           </div>
           {/* MARK: MAZE
            */}
-          <div class="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+          <div className="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
             <a href="#">
               <img
-                class="rounded-t-lg"
+                className="rounded-t-lg"
                 src="src/assets/images/fotografo.webp"
                 alt="desginer-image"
               />
             </a>
-            <div class="p-5">
+            <div className="p-5">
               <a href="#">
-                <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+                <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
                   MAZE VIDEOGAME
                 </h5>
               </a>
@@ -515,17 +547,17 @@ const Projects = () => {
           </div>
           {/* MARK: ECOMMERCE
            */}
-          <div class="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+          <div className="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
             <a href="#">
               <img
-                class="rounded-t-lg"
+                className="rounded-t-lg"
                 src="src/assets/images/fotografo.webp"
                 alt="desginer-image"
               />
             </a>
-            <div class="p-5">
+            <div className="p-5">
               <a href="#">
-                <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+                <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
                   ECOMMERCE
                 </h5>
               </a>
@@ -543,10 +575,16 @@ const Projects = () => {
                   src="https://img.shields.io/badge/ionic-%23d4f7f9?style=for-the-badge&logo=ionic&logoSize=auto"
                 />
                 <img
+                  className="hidden lg:block"
                   alt="Static Badge"
                   src="https://img.shields.io/badge/angular-%23d9d9de?style=for-the-badge&logo=angular&logoSize=auto"
                 />
               </div>
+              <img
+                className="block lg:hidden"
+                alt="Static Badge"
+                src="https://img.shields.io/badge/angular-%23d9d9de?style=for-the-badge&logo=angular&logoSize=auto"
+              />
             </div>
           </div>
           {/*

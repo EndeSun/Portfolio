@@ -1,14 +1,14 @@
 import { Canvas } from "@react-three/fiber";
 import { Suspense, useEffect, useRef, useState } from "react";
 
-import sakura from "../assets/sakura.mp3";
-import HomeInfo from "../components/HomeInfo";
-import Loader from "../components/Loader";
-import { soundoff, soundon } from "../assets/icons";
-import Birds from "../models/Birds";
-import Island from "../models/Island";
-import Plane from "../models/Plane";
-import Sky from "../models/Sky";
+import sakura from "/src/assets/sakura.mp3";
+import HomeInfo from "/src/components/HomeInfo";
+import Loader from "/src/components/Loader";
+import { soundoff, soundon } from "/src/assets/icons";
+import Birds from "/src/models/Birds";
+import Island from "/src/models/Island";
+import Plane from "/src/models/Plane";
+import Sky from "/src/models/Sky";
 
 const Home = () => {
   //MARK: AUDIO PARAMS
@@ -67,7 +67,6 @@ const Home = () => {
   //MARK: MAIN CODE
   return (
     <section className="w-full h-screen relative">
-
       <div className="absolute top-28 left-0 right-0 z-10 flex items-center justify-center">
         {currentStage && <HomeInfo currentStage={currentStage} />}
       </div>
