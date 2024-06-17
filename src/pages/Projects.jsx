@@ -4,7 +4,7 @@ const Projects = () => {
   return (
     <section className="relative flex lg:flex-row flex-col max-container">
       <div className="flex-1 min-w-[50%] flex flex-col">
-        <h2 className="text-6xl title-gradient_text">
+        <h2 className="text-4xl lg:text-6xl title-gradient_text">
           PROJECTS <span className="subtitle-gradient_text">MADE</span>
         </h2>
         <section className="mt-6 flex flex-wrap justify-center gap-2">
@@ -14,7 +14,7 @@ const Projects = () => {
             <a href="#">
               <img
                 className="rounded-t-lg"
-                src="src/assets/images/fotografo.webp"
+                src="src/assets/images/001Buga.png"
                 alt="desginer-image"
               />
             </a>
