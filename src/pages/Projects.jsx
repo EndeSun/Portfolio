@@ -90,7 +90,7 @@ const Projects = () => {
             <a href="#">
               <img
                 className="rounded-t-lg"
-                src="src/assets/images/fotografo.webp"
+                src="src/assets/images/020Cardiac.webp"
                 alt="desginer-image"
               />
             </a>
@@ -118,7 +118,7 @@ const Projects = () => {
             <a href="#">
               <img
                 className="rounded-t-lg"
-                src="src/assets/images/fotografo.webp"
+                src="src/assets/images/027Telemedicina.webp"
                 alt="desginer-image"
               />
             </a>
@@ -174,7 +174,7 @@ const Projects = () => {
             <a href="#">
               <img
                 className="rounded-t-lg"
-                src="src/assets/images/fotografo.webp"
+                src="src/assets/images/021Stwhealth.webp"
                 alt="desginer-image"
               />
             </a>
@@ -205,7 +205,7 @@ const Projects = () => {
             <a href="#">
               <img
                 className="rounded-t-lg"
-                src="src/assets/images/fotografo.webp"
+                src="src/assets/images/022Dicom.webp"
                 alt="desginer-image"
               />
             </a>
@@ -232,7 +232,7 @@ const Projects = () => {
             <a href="#">
               <img
                 className="rounded-t-lg"
-                src="src/assets/images/fotografo.webp"
+                src="src/assets/images/023Analisis.webp"
                 alt="desginer-image"
               />
             </a>
@@ -260,7 +260,7 @@ const Projects = () => {
             <a href="#">
               <img
                 className="rounded-t-lg"
-                src="src/assets/images/fotografo.webp"
+                src="src/assets/images/024Clasificador.webp"
                 alt="desginer-image"
               />
             </a>
@@ -426,7 +426,7 @@ const Projects = () => {
             <a href="#">
               <img
                 className="rounded-t-lg"
-                src="src/assets/images/fotografo.webp"
+                src="src/assets/images/028iVideoclub.webp"
                 alt="desginer-image"
               />
             </a>
@@ -469,7 +469,7 @@ const Projects = () => {
             <a href="#">
               <img
                 className="rounded-t-lg"
-                src="src/assets/images/fotografo.webp"
+                src="src/assets/images/026filmoteca.webp"
                 alt="desginer-image"
               />
             </a>
@@ -497,7 +497,7 @@ const Projects = () => {
             <a href="#">
               <img
                 className="rounded-t-lg"
-                src="src/assets/images/fotografo.webp"
+                src="src/assets/images/029Laringe.webp"
                 alt="desginer-image"
               />
             </a>

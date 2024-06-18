@@ -318,7 +318,7 @@ const About = () => {
           {/* MARK: OTHER SKILLS
            */}
           <h2 className="mt-6 text-3xl lg:text-6xl title-gradient_text">
-            <span className="subtitle-gradient_text">Other</span> skills
+            <span className="subtitle-gradient_text">OTHER</span> SKILLS
           </h2>
 
           <section className="mt-6 flex flex-wrap justify-center gap-2">
@@ -436,7 +436,7 @@ const About = () => {
           {/* MARK: EMPLOYMENT HISTORY
            */}
           <h2 className="mt-6 text-3xl lg:text-6xl title-gradient_text">
-            <span className="subtitle-gradient_text">Employment</span> history
+            <span className="subtitle-gradient_text">EMPLOYMENT</span> HISTORY
           </h2>
 
           <dl className="mt-6">
