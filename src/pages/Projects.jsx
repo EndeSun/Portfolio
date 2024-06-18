@@ -58,7 +58,7 @@ const Projects = () => {
             <a href="#">
               <img
                 className="rounded-t-lg"
-                src="src/assets/images/fotografo.webp"
+                src="src/assets/images/003Abc.webp"
                 alt="desginer-image"
               />
             </a>
@@ -287,7 +287,7 @@ const Projects = () => {
             <a href="#">
               <img
                 className="rounded-t-lg"
-                src="src/assets/images/fotografo.webp"
+                src="src/assets/images/009AirHockey.webp"
                 alt="desginer-image"
               />
             </a>
@@ -318,7 +318,7 @@ const Projects = () => {
             <a href="#">
               <img
                 className="rounded-t-lg"
-                src="src/assets/images/fotografo.webp"
+                src="src/assets/images/010Squid.webp"
                 alt="desginer-image"
               />
             </a>
@@ -345,7 +345,7 @@ const Projects = () => {
             <a href="#">
               <img
                 className="rounded-t-lg"
-                src="src/assets/images/fotografo.webp"
+                src="src/assets/images/008Defensa.webp"
                 alt="desginer-image"
               />
             </a>
@@ -372,7 +372,7 @@ const Projects = () => {
             <a href="#">
               <img
                 className="rounded-t-lg"
-                src="src/assets/images/fotografo.webp"
+                src="src/assets/images/006Run.webp"
                 alt="desginer-image"
               />
             </a>
@@ -399,7 +399,7 @@ const Projects = () => {
             <a href="#">
               <img
                 class="rounded-t-lg"
-                src="src/assets/images/fotografo.webp"
+                src="src/assets/images/007Beacon.webp"
                 alt="desginer-image"
               />
             </a>
@@ -491,13 +491,46 @@ const Projects = () => {
             </div>
           </div>
 
-          {/* MARK: DIET APP
+          {/* MARK: LARINGE SEGMENTATION AND TRACKING
            */}
           <div className="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
             <a href="#">
               <img
                 className="rounded-t-lg"
                 src="src/assets/images/fotografo.webp"
+                alt="desginer-image"
+              />
+            </a>
+            <div className="p-5">
+              <a href="#">
+                <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+                  LARINGE SEGMENTATION AND TRACKING
+                </h5>
+              </a>
+              <p className="mb-3 font-normal text-gray-700 dark:text-gray-400">
+                Laringe segmentation using traditional methods of object detection and tracking in a
+                standard quality video.
+              </p>
+              <div className="flex flex-row">
+                <img
+                  alt="Static Badge"
+                  src="https://img.shields.io/badge/opencv-%23c6caff?style=for-the-badge&logo=opencv&logoSize=auto"
+                />
+                <img
+                  alt="Static Badge"
+                  src="https://img.shields.io/badge/TFG-red?style=for-the-badge&logoSize=auto"
+                />
+              </div>
+            </div>
+          </div>
+
+          {/* MARK: DIET APP
+           */}
+          <div className="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+            <a href="#">
+              <img
+                className="rounded-t-lg"
+                src="src/assets/images/005Diet.webp"
                 alt="desginer-image"
               />
             </a>
@@ -524,7 +557,7 @@ const Projects = () => {
             <a href="#">
               <img
                 className="rounded-t-lg"
-                src="src/assets/images/fotografo.webp"
+                src="src/assets/images/004Maze.webp"
                 alt="desginer-image"
               />
             </a>
@@ -551,7 +584,7 @@ const Projects = () => {
             <a href="#">
               <img
                 className="rounded-t-lg"
-                src="src/assets/images/fotografo.webp"
+                src="src/assets/images/002Ecommerce.webp"
                 alt="desginer-image"
               />
             </a>
