@@ -45,8 +45,14 @@ import python from './python.svg'
 import swift from './swift.svg'
 import unity from './unity.svg'
 import vue from './vue.svg'
+import instagram from './instagram.svg'
+import email from './email.svg'
+import phone from './whatsapp.svg'
 
 export {
+    instagram,
+    email,
+    phone,
     css,
     express,
     git,

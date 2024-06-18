@@ -1,5 +1,6 @@
 import React from "react";
 import { skills } from "../constants/skills";
+import { instagram, email, linkedin, phone } from "../assets/icons";
 
 const About = () => {
   return (
@@ -568,6 +569,55 @@ const About = () => {
                   </div>
                 </div>
               ))}
+            </div>
+          </div>
+
+          {/* MARK: CONTACTS
+           */}
+          <div className="py-10 flex flex-col">
+            <h2 className="mt-6 text-3xl lg:text-6xl title-gradient_text">
+              <span className="subtitle-gradient_text">CONTACT</span> ME
+            </h2>
+
+            <div className="mt-2 flex flex-col justify-center gap-4">
+              {/* {skills.map((skill) => (
+
+              ))} */}
+              <div>
+                <a href="https://instagram.com/ende_1195"  className="flex flex-row gap-4">
+                  <img
+                    src={instagram}
+                    alt="instagram"
+                    className="w-1/12 h-1/12"
+                  />
+                  <strong>ende_1195</strong>
+                </a>
+              </div>
+
+              <div>
+                <a href="tel:681671050"  className="flex flex-row gap-4">
+                  <img src={phone} alt="phone" className="w-1/12 h-1/12" />
+                  <strong>681671050</strong>
+                </a>
+              </div>
+
+              <div>
+                <a href="mailto:1195562121ende@gmail.com"  className="flex flex-row gap-4">
+                  <img src={email} alt="email" className="w-1/12 h-1/12" />
+                  <strong>1195562121ende@gmail.com</strong>
+                </a>
+              </div>
+
+              <div>
+                <a href="https://linkedin.com/in/endesun" className="flex flex-row gap-4">
+                  <img
+                    src={linkedin}
+                    alt="linkedin"
+                    className="w-1/12 h-1/12"
+                  />
+                  <strong>endesun</strong>
+                </a>
+              </div>
             </div>
           </div>
         </div>
