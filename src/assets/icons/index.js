@@ -26,12 +26,30 @@ import arrow from './arrow.svg'
 import contact from './contact.svg'
 import soundon from './soundon.png'
 import soundoff from './soundoff.png'
+import angular from './angular.svg'
+import blender from './blender.svg'
+import bootstrap from './bootstrap.svg'
+import figma from './figma.svg'
+import ionic from './ionic.svg'
+import java from './java.svg'
+import kotlin from './kotlin.svg'
+import laravel from './laravel.svg'
+import matlab from './matlab.svg'
+import microsoft from './microsoft.svg'
+import mysql from './mysql.svg'
+import node from './node.svg'
+import opencv from './opencv.svg'
+import php from './php.svg'
+import postman from './postman.svg'
+import python from './python.svg'
+import swift from './swift.svg'
+import unity from './unity.svg'
+import vue from './vue.svg'
 
 export {
     css,
     express,
     git,
-    github,
     html,
     javascript,
     mongodb,
@@ -55,5 +73,25 @@ export {
     arrow,
     contact,
     soundon,
-    soundoff
+    soundoff,
+    angular,
+    blender,
+    bootstrap,
+    figma,
+    github,
+    ionic,
+    java,
+    kotlin,
+    laravel,
+    matlab,
+    microsoft,
+    mysql,
+    node,
+    opencv,
+    php,
+    postman,
+    python,
+    swift,
+    unity,
+    vue
 }

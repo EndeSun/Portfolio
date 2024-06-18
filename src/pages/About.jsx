@@ -1,4 +1,5 @@
 import React from "react";
+import { skills } from "../constants/skills";
 
 const About = () => {
   return (
@@ -389,17 +390,17 @@ const About = () => {
               </div>
             </div>
 
-            <div class="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+            <div className="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
               <a href="#">
                 <img
-                  class="rounded-t-lg"
+                  className="rounded-t-lg"
                   src="src/assets/images/digitalMarketing.webp"
                   alt="desginer-image"
                 />
               </a>
-              <div class="p-5">
+              <div className="p-5">
                 <a href="#">
-                  <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+                  <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
                     MARKETING
                   </h5>
                 </a>
@@ -411,17 +412,17 @@ const About = () => {
               </div>
             </div>
 
-            <div class="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+            <div className="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
               <a href="#">
                 <img
-                  class="rounded-t-lg"
+                  className="rounded-t-lg"
                   src="src/assets/images/translate.webp"
                   alt="desginer-image"
                 />
               </a>
-              <div class="p-5">
+              <div className="p-5">
                 <a href="#">
-                  <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+                  <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
                     TRANSLATOR
                   </h5>
                 </a>
@@ -548,7 +549,27 @@ const About = () => {
 
           {/* MARK: TECHNOLOGIES
            */}
-          
+
+          <div className="py-10 flex flex-col">
+            <h2 className="mt-6 text-3xl lg:text-6xl title-gradient_text">
+              <span className="subtitle-gradient_text">SKILLS</span> RESUME
+            </h2>
+
+            <div className="mt-16 flex flex-wrap justify-center gap-12">
+              {skills.map((skill) => (
+                <div key={skill.name} className="block-container w-20 h-20">
+                  <div className="btn-back rounded-xl" />
+                  <div className="btn-front rounded-xl flex justify-center items-center">
+                    <img
+                      src={skill.imageUrl}
+                      alt={skill.name}
+                      className="w-1/2 h-1/2 object-contain"
+                    />
+                  </div>
+                </div>
+              ))}
+            </div>
+          </div>
         </div>
       </section>
     </section>
