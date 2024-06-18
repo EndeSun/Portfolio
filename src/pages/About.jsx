@@ -579,41 +579,61 @@ const About = () => {
               <span className="subtitle-gradient_text">CONTACT</span> ME
             </h2>
 
-            <div className="mt-2 flex flex-col justify-center gap-4">
+            <div className="mt-2 flex flex-col justify-center gap-4 items-center">
               {/* {skills.map((skill) => (
 
               ))} */}
               <div>
-                <a href="https://instagram.com/ende_1195"  className="flex flex-row gap-4">
+                <a
+                  href="https://instagram.com/ende_1195"
+                  className="flex flex-row gap-4 items-center"
+                >
                   <img
                     src={instagram}
                     alt="instagram"
-                    className="w-1/12 h-1/12"
+                    className="w-1/12 h-1/12 lg:w-[4%]"
                   />
                   <strong>ende_1195</strong>
                 </a>
               </div>
 
               <div>
-                <a href="tel:681671050"  className="flex flex-row gap-4">
-                  <img src={phone} alt="phone" className="w-1/12 h-1/12" />
+                <a
+                  href="tel:681671050"
+                  className="flex flex-row gap-4 items-center"
+                >
+                  <img
+                    src={phone}
+                    alt="phone"
+                    className="w-1/12 h-1/12 lg:w-[4%]"
+                  />
                   <strong>681671050</strong>
                 </a>
               </div>
 
               <div>
-                <a href="mailto:1195562121ende@gmail.com"  className="flex flex-row gap-4">
-                  <img src={email} alt="email" className="w-1/12 h-1/12" />
+                <a
+                  href="mailto:1195562121ende@gmail.com"
+                  className="flex flex-row gap-4 items-center"
+                >
+                  <img
+                    src={email}
+                    alt="email"
+                    className="w-1/12 h-1/12 lg:w-[4%]"
+                  />
                   <strong>1195562121ende@gmail.com</strong>
                 </a>
               </div>
 
               <div>
-                <a href="https://linkedin.com/in/endesun" className="flex flex-row gap-4">
+                <a
+                  href="https://linkedin.com/in/endesun"
+                  className="flex flex-row gap-4 items-center"
+                >
                   <img
                     src={linkedin}
                     alt="linkedin"
-                    className="w-1/12 h-1/12"
+                    className="w-1/12 h-1/12 lg:w-[4%]"
                   />
                   <strong>endesun</strong>
                 </a>
